@@ -35,7 +35,6 @@ const lexicographicalOrder = (word1, word2) => {
   return (word1 < word2) ? word1 : word2
 }
 
-
 /**
  * Takes in a word and returns "large" if its length is 5 character or more.
  * Otherwise returns "small"
